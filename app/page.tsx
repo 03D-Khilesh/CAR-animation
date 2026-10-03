@@ -125,7 +125,7 @@ gsap.fromTo(
   <div className="car-trail absolute left-0 top-1/2 h-2 w-[0%] -translate-y-1/2 rounded-full bg-gradient-to-r from-transparent via-blue-500/40 to-blue-400/70 blur-lg" />
 
       <img
-        src="/car.png"
+        src="/CAR-animation/car.png"
         alt="Sports car"
       className="car relative z-10 w-[550px] sm:w-[650px] md:w-[750px] max-w-none"
       />
