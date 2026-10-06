@@ -1,4 +1,5 @@
 "use client";
+const basePath = process.env.NODE_ENV === "production" ? "/CAR-animation" : "";
 
 import { useEffect, useRef , useState} from "react";
 import gsap from "gsap";
@@ -125,7 +126,7 @@ gsap.fromTo(
   <div className="car-trail absolute left-0 top-1/2 h-2 w-[0%] -translate-y-1/2 rounded-full bg-gradient-to-r from-transparent via-blue-500/40 to-blue-400/70 blur-lg" />
 
       <img
-        src="/CAR-animation/car.png"
+        src={`${basePath}/car.png`}
         alt="Sports car"
       className="car relative z-10 w-[550px] sm:w-[650px] md:w-[750px] max-w-none"
       />
